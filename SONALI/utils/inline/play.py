@@ -3,7 +3,8 @@ import math
 from pyrogram.types import InlineKeyboardButton
 
 from SONALI.utils.formatters import time_to_seconds
-
+from SONALI import app
+import config
 
 def track_markup(_, videoid, user_id, channel, fplay):
     buttons = [
@@ -40,76 +41,70 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "🇷𝐢————————"
+        bar = "▰▱▱▱▱▱▱▱▱▱"
     elif 10 < umm < 20:
-        bar = "🇷𝐢𝐲———————"
+        bar = "▰▰▱▱▱▱▱▱▱▱"
     elif 20 <= umm < 30:
-        bar = "🇷𝐢𝐲𝐚——————"
+        bar = "▰▰▰▱▱▱▱▱▱▱"
     elif 30 <= umm < 40:
-        bar = "🇷𝐢𝐲𝐚 ♡—————"
+        bar = "▰▰▰▰▱▱▱▱▱▱"
     elif 40 <= umm < 50:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌————"
+        bar = "▰▰▰▰▰▱▱▱▱▱"
     elif 50 <= umm < 60:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮———"
+        bar = "▰▰▰▰▰▰▱▱▱▱"
     elif 60 <= umm < 70:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮𝐬——"
+        bar = "▰▰▰▰▰▰▰▱▱▱"
     elif 70 <= umm < 80:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮𝐬𝐢—"
+        bar = "▰▰▰▰▰▰▰▰▱▱"
     elif 80 <= umm < 95:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮𝐬𝐢𝐜-"
+        bar = "▰▰▰▰▰▰▰▰▰▱" 
     else:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮𝐬𝐢𝐜 ♡"
-
+        bar = "▰▰▰▰▰▰▰▰▰▰"
     buttons = [
-        [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
-        ],
-        [
+                [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
                 callback_data="GetTimer",
             )
         ],
-      [
-            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/KSD_BOT_NETWORK",),
-            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/Team_riya_support",),
+        [
+         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
         ],
         [
-            InlineKeyboardButton(text="✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url="https://t.me/riyaxmusicbot?startgroup=true",),
+            InlineKeyboardButton(text="✭ ᴜᴘᴅᴀᴛᴇ ❥", url="https://t.me/About_Tiger_01",),
+            InlineKeyboardButton(text="✭ sᴜᴘᴘᴏʀᴛ ❥", url="https://t.me/Tiger_Chatz",),
         ],
         [
-            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")
+            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-    ]
 
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+    ]
     return buttons
 
 
 def stream_markup(_, videoid, chat_id):
     buttons = [
         [
+        [
+         InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
+        ],
+        [
+            InlineKeyboardButton(text="✭ ᴜᴘᴅᴀᴛᴇ ❥", url="https://t.me/About_Tiger_01",),
+            InlineKeyboardButton(text="✭ sᴜᴘᴘᴏʀᴛ ❥", url="https://t.me/Tiger_Chatz",),
+        ],
+        [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
-         ],
-        [
-            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/KSD_BOT_NETWORK",),
-            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/Team_riya_support",),
         ],
-        [
-            InlineKeyboardButton(text="✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url="https://t.me/riyaXmusicbot?startgroup=true",),
-        ],
-        [
-            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")
-        ],
-    ]
 
+        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+    ]
     return buttons
 
 
