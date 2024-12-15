@@ -71,8 +71,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
          InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
         ],
         [
-            InlineKeyboardButton(text="✭ ᴜᴘᴅᴀᴛᴇ ❥", url="https://t.me/About_Tiger_01",),
-            InlineKeyboardButton(text="✭ sᴜᴘᴘᴏʀᴛ ❥", url="https://t.me/Tiger_Chatz",),
+            InlineKeyboardButton(text="✭ ᴜᴘᴅᴀᴛᴇ ❥", url="https://t.me/ksd_bot_network",),
+            InlineKeyboardButton(text="✭ sᴜᴘᴘᴏʀᴛ ❥", url="https://t.me/team_riya_support",),
         ],
         [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
@@ -92,8 +92,8 @@ def stream_markup(_, videoid, chat_id):
          InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
         ],
         [
-            InlineKeyboardButton(text="✭ ᴜᴘᴅᴀᴛᴇ ❥", url="https://t.me/About_Tiger_01",),
-            InlineKeyboardButton(text="✭ sᴜᴘᴘᴏʀᴛ ❥", url="https://t.me/Tiger_Chatz",),
+            InlineKeyboardButton(text="✭ ᴜᴘᴅᴀᴛᴇ ❥", url="https://t.me/ksd_bot_network",),
+            InlineKeyboardButton(text="✭ sᴜᴘᴘᴏʀᴛ ❥", url="https://t.me/team_riya_support",),
         ],
         [
             InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
