@@ -13,9 +13,9 @@ API_HASH = getenv("API_HASH","a069bf02806468fe18427ab6b9a3bb6c")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN","7751992632:AAHPHGL7y-RjCWzvCBTOg2K6pXFtreH5KmI")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_hunter_lll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","ll_Tiger_is_back_ll")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","riyamusicrobot")
+BOT_USERNAME = getenv("BOT_USERNAME","Tiger_x_Robot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME")
 # ---------------------------------------------------------
@@ -30,7 +30,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", -1002356335631))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7668520999))
+OWNER_ID = int(getenv("OWNER_ID", 7425303918))
 
 # make your bots privacy from telegra.ph and put your url here 
 PRIVACY_LINK = getenv("PRIVACY_LINK", "https://graph.org/PRIVACY-FOR-TEAM-PURVI-BOTS-09-18")
@@ -44,15 +44,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ksdofficial8/BADNAMXMUSIC",
+    "https://github.com/Suraj-saw-241/tigermusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ksd_bot_network")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/team_riya_support")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/About_Tiger_01")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Tiger_Chatz")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -90,21 +90,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/wzwggt.jpg"
+    "START_IMG_URL", "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/wzwggt.jpg"
+    "PING_IMG_URL", "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/bcg7x4.mp4"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/wzwggt.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/wzwggt.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/wzwggt.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
+STREAM_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
 
 
 def time_to_seconds(time):
