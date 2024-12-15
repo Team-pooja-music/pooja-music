@@ -9,13 +9,13 @@
   
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <img src="https://readme-typing-svg.herokuapp.com?color=FF0085&width=620&lines=🍁+🚩+𝗣𝗢𝗪𝗘𝗥𝗘𝗗+𝗕𝗬+𝗛𝗨𝗡𝗧𝗘𝗥+𝗫𝗗+🚩+🍁"></b></h3>
-<img src="https://files.catbox.moe/0uir1v.jpg">
+<img src="https://files.catbox.moe/bnym3c.jpg">
 <h1 align="center"><b>𝐓𝐄𝐀𝐌 𝐑𝐈𝐘𝐀 𝐁𝐎𝐓𝐒</b></h1>
 <p align="center"><a href="https://ll_hunter_lll"><img src="https://files.catbox.moe/p61jqe.jpg" width="400"></a></p>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KSDOFFICIAL8&repo=BIT_MUSIC&theme=flag-india)
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KSDOFFICIAL8&repo=Ayesha-Music&theme=flag-india)
 
 
 
@@ -35,8 +35,6 @@ GO TO [RELOAD.PY](https://github.com/KSDOFFICIAL8/BIT_MUSIC/blob/main/SONALI/plu
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/ksdofficial8/BIT_MUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
-
-<p><img width="500" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=TEAMP BA&show_icons=true&locale=en&layout=compact" alt="𝐓𝐄𝐀𝐌 𝐑𝐈𝐘𝐀" /></p>
 
 
 ### Contact :
