@@ -29,7 +29,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", -1002356335631))
 
-# Get this value from @PURVI_HELP_BOT on Telegram by /id
+# Get this value from @RIYAXMUSICBOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 7425303918))
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -73,7 +73,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
-# Get your pyrogram v2 session from @StringFatherBot on Telegram
+# Get your pyrogram v2 session from @KsdStringSessionbot on Telegram
 STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
@@ -90,21 +90,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/ydu29x.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/ka8vh6.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/bcg7x4.mp4"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
-STREAM_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/56629c3e2686a00e7b9c6-ffe6fd2e5c0b9e57e8.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/ydu29x.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/ka8vh6.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/ydu29x.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/ydu29x.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/ydu29x.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/ydu29x.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/ydu29x.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/ydu29x.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/ydu29x.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/ydu29x.jpg"
 
 
 def time_to_seconds(time):
