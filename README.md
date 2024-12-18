@@ -1,4 +1,4 @@
-# 𝗕𝗜𝗧-𝗠𝗨𝗦𝗜𝗖 
+# 𝗣𝗢𝗢𝗝𝗔-𝗠𝗨𝗦𝗜𝗖 
 ➥ 𝖧ᴇʀᴏᴋᴜ 𝖭ᴇᴡ 𝖤ʀʀᴏʀ 𝖥ɪxᴇᴅ 𝖱ᴇᴘᴏ 𝖣ᴇᴘʟᴏʏ 𝖭ᴏᴡ ✔️ 
  ➥ 𝖥ɪʀsᴛ 𝖥ᴏʀᴋ 𝖳ʜɪs 𝖱ᴇʀᴏ 𝖠ɴᴅ 𝖦ɪᴠᴇ ᴀ 𝖲ᴛᴀʀ ⭐
   ➥ 𝖳ʜᴇɴ ʜᴏsᴛ ᴏɴ ʜᴇʀᴋᴏᴜ 👨🏻‍💻
@@ -8,11 +8,22 @@
 <h1 align="center"
   
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<img src="https://readme-typing-svg.herokuapp.com?color=FF0085&width=620&lines=🍁+🚩+𝗣𝗢𝗪𝗘𝗥𝗘𝗗+𝗕𝗬+𝗛𝗨𝗡𝗧𝗘𝗥+𝗫𝗗+🚩+🍁"></b></h3>
-<img src="https://files.catbox.moe/bnym3c.jpg">
-<h1 align="center"><b>𝐓𝐄𝐀𝐌 𝐑𝐈𝐘𝐀 𝐁𝐎𝐓𝐒</b></h1>
-<p align="center"><a href="https://ll_hunter_lll"><img src="https://files.catbox.moe/p61jqe.jpg" width="400"></a></p>
+<img src="https://readme-typing-svg.herokuapp.com?color=FF0085&width=620&lines=🍁+🚩+𝗣𝗢𝗪𝗘𝗥𝗘𝗗+𝗕𝗬+𝗣𝗢𝗢𝗝𝗔+𝗠𝗨𝗦𝗜𝗖+🚩+🍁"></b></h3>
+<img src="https://files.catbox.moe/r5rlo7.jpg">
+<h1 align="center"><b>𝐓𝐄𝐀𝐌 𝐏𝐎𝐎𝐉𝐀 𝐁𝐎𝐓𝐒</b></h1>
+<p align="center"><a href="https://ll_hunter_lll"><img src="https://files.catbox.moe/nwagr0.jpg" width="400"></a></p>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+
+<p align="center">
+<b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
+</p>
+
+<h3 align="center">
+    ─「 𝐓𝐄𝐀𝐌 𝐏𝐎𝐎𝐉𝐀  」─
+</h3>
+
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Team-pooja-music/pooja-music"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=KSDOFFICIAL8&repo=Ayesha-Music&theme=flag-india)
@@ -20,19 +31,7 @@
 
 
 
-GO TO [RELOAD.PY](https://github.com/KSDOFFICIAL8/BIT_MUSIC/blob/main/SONALI/plugins/tools/reload.py) THEN CHANGE MY ID NUMBER 
-
-</p>
-ᴋᴏᴜsʜᴀʟ
-<p align="center">
-<b>𝗗𝗘𝗣𝗟𝗢𝗬𝗠𝗘𝗡𝗧 𝗠𝗘𝗧𝗛𝗢𝗗𝗦</b>
-</p>
-
-<h3 align="center">
-    ─「 𝐓𝐄𝐀𝐌 𝐑𝐈𝐘𝐀  」─
-</h3>
-
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/ksdofficial8/BIT_MUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+GO TO [RELOAD.PY](https://github.com/Team-pooja-music/pooja-music/blob/main/SONALI/plugins/tools/reload.py) THEN CHANGE MY ID NUMBER 
 
 
 
