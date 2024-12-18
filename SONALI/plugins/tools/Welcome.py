@@ -137,7 +137,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 ┣ 𝟓 ➥ 𝐆ɪᴠᴇ  ʀᴇsᴘᴇᴄᴛ , ᴛᴀᴋᴇ  ʀᴇsᴘᴇᴄᴛ 
 ┗━━━━━━━━━━━━━━━━━      
 
-❖ ᴘᴏᴡᴇʀᴇᴅ  ➥ [тҽαɱ ɾιყα](https://t.me/KSD_BOT_NETWORK)
+❖ ᴘᴏᴡᴇʀᴇᴅ  ➥ [𝐁𝐑𝐎𝐊𝐄𝐑](https://t.me/Broken_Team_Netwok)
 """,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url=f"https://t.me/{app.username}?startgroup=true")]])
         )
